@@ -28,4 +28,9 @@ describe('windchill', () => {
       'US_TEMP_MAX'
     ])
   })
+
+  it('supports clamping to min/max', () => {
+    expect(windchill.us(55, 3, false), 'to equal', 55)
+    expect(windchill.si(15, 4.8, false), 'to equal', 15)
+  })
 })
