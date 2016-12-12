@@ -2,6 +2,6 @@
 
 A collection of tools for weather calculations
 
-# Tools
+## Tools
 
 * windchill
