@@ -1,5 +1,5 @@
 import expect from 'unexpected'
-import windchill from '../src/windchill'
+import * as windchill from '../src/windchill'
 
 describe('windchill', () => {
   it('calculates the windchill from windspeed and temp (F)', () => {
